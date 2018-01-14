@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation>
+<category name="Main">
+<item href="notes.php">Home</item>
+<item href="account.php">Account</item>
+<item href="downloads.php">Downloads</item>
+</category>
+<category name="Community">
+<item href="ranks.php?sort=level">Highscores</item>
+<item href="characters.php">Characters</item>
+<item href="playerson.php">Players ON</item>
+<item href="houses.php">Houses</item>
+<item href="guilds.php">Guilds</item>
+<item href="bans.php">Bans</item>
+</category>
+<category name="Events">
+<item href="calendario.php">Calendario</item>
+<item href="grancastle.php">Gran Castle</item>
+<item href="desenvolvimento.php">Desenvolvimento</item>
+<!--<item href="thewalkingdead.php">The Walking Dead</item>-->
+</category>
+<category name="Library">
+<item href="spells.php">Magias</item>
+<item href="skills.php">Special Skills</item>
+<item href="itens.php">Itens Especiais</item>
+<item href="comandos.php">Comandos</item>
+<item href="servidores.php">Servidores</item>
+<item href="onlinebonus.php">Online Bonus</item>
+<item href="gamemaster.php">Gamemaster</item>
+</category>
+<category name="Rules">
+<item href="acordo.php">Antes de Jogar</item>
+<item href="permitido.php">Permitido</item>
+<item href="npermitido.php">Nao Permitido</item>
+<item href="revisao.php">Revisao de BAN</item>
+</category>
+<category name="Support">
+<item href="faleconosco.php">Fale Conosco</item>
+<item href="logintutorial.php">Como Jogar</item>
+<item href="hypercam.php">HyperCam Tutorial</item>
+<item href="winmtr.php">WinMTR Tutorial</item>
+<item href="equipe.php">Equipe</item>
+</category>
+<category name="Donations">
+<item href="porquedoar.php">Porque Doar</item>
+<item href="regrasdoar.php">Antes de Doar</item>
+<item href="comodoar.php">Como Doar</item>
+<item href="vantagens.php">Vantagens</item>
+<item href="eaglegold.php">Eagle Gold</item>
+</category>
+
+
+<!--><item href="admin.php">Admin Panel</item>-->
+<!--<item href="info.php">Server Info</item>-->
+<!--<item href="voting.php">Voting</item>-->
+
+
+</navigation>

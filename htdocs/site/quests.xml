@@ -1,0 +1,30 @@
+<quests>
+
+<quest id="1234" value="1" title="Pharao Helmet" level="250">
+<description>
+Quest baseada em dropar items dos Lendarios Faraos, e conseguir juntar todos eles e montar um helmet digno de um guerreiro.
+</description>
+<rewards>
+Pharao Helmet 
+</rewards>
+</quest>
+
+<quest id="1235" value="5" title="O Tesouro dos DarkDemons" level="250">
+<description>
+Seu Objetivo eh se infiltrar na cave dos Dark Demos, e roubar sua legs mais valiosa
+</description>
+<rewards>
+Demon Legs
+</rewards>
+</quest>
+
+<quest id="1236" value="2" title="Blessed Pharao Helmet" level="280">
+<description>
+Voce devera dar uma ajuda ao velho Farrj Faruq.
+</description>
+<rewards>
+O Velho usa uma magia em voce, que aprimora o seu Pharao Helmet
+</rewards>
+</quest>
+
+</quests>
