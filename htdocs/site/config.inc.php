@@ -74,9 +74,9 @@ $cfg['Email_Validate'] = false;
 # Allow email based account recovery?
 $cfg['Email_Recovery'] = true;
 
-# Enable extension=php_openssl.dll in php.ini in order to use gmail
+# Enable extension=php_openssl.dll in php.ini in order to use gmail (tls or ssl ** quer que entro depois mexer?)
 $cfg['SMTP_Host'] = 'ssl://smtp.gmail.com';
-$cfg['SMTP_Port'] = 465;
+$cfg['SMTP_Port'] = 587;
 $cfg['SMTP_Auth'] = true;
 $cfg['SMTP_User'] = 'eagleworldserver@gmail.com';
 $cfg['SMTP_Password'] = '_PL)OK(IJ';

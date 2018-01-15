@@ -5,7 +5,7 @@ include ("header.inc.php");
 ?>
 
 <div id="content">
-	<div class="top">FoxWorld Staff</div>
+	<div class="top">Eagle World Staff</div>
 	<div class="mid">
 
 		<center>
@@ -22,12 +22,14 @@ include ("header.inc.php");
 				<font class=f2>
 				Funções:<br>
 				- Administração.<br>
-				- Desenvolvimento.
+				- Desenvolvimento Geral.
 				</font>
 			</td>
 		</tr>
 		</table>
+		<br><br>
 		<hr>
+		<br><br>
 		<table width="100%">
 		<tr>
 			<td width="250" align="center">
@@ -68,22 +70,10 @@ include ("header.inc.php");
 			</td>
 		</tr>
 		</table>
+		<br><br>
 		<hr>
-		<br>
+		<br><br>
 		<table width="100%">
-		<tr>
-			<td width="250" align="center">
-				<img width="150" height="150" src="https://scontent-gru2-1.xx.fbcdn.net/v/t34.0-12/26551384_1567720499978243_1005775384_n.jpg?oh=6ba1d646765f1020005708fd5077def9&oe=5A5A705B" class="rounded"><br>
-				<font class=f2>[GM] Night</font>
-			</td>
-			
-			<td valign="">
-				<font class=f2>
-				Funções:<br>
-				- Policiamento IN game.
-				</font>
-			</td>
-		</tr>
 		<tr>
 			<td width="250" align="center">
 				<img width="150" height="150" src="https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/13244855_892613830883925_2165604262770624675_n.jpg?oh=12d087ecf6d8c7d6abb132414a2f0303&oe=5AB285E6" class="rounded"><br>
@@ -112,7 +102,23 @@ include ("header.inc.php");
 				</font>
 			</td>
 		</tr>
+		<tr>
+			<td width="250" align="center">
+				<img width="150" height="150" src="images/equipe/interrogation.png" class="rounded"><br>
+				<font class=f2>[GM] Night</font>
+			</td>
+			
+			<td valign="">
+				<font class=f2>
+				Funções:<br>
+				- Policiamento IN game.
+				</font>
+			</td>
+		</tr>
 		</table>
+		<br><br>
+		<hr>
+		<br><br>
 		<table width="100%">
 		<tr>
 			<td width="250" align="center"><br/>
@@ -125,7 +131,9 @@ include ("header.inc.php");
 		
 		</table>
 	
+		<br><br>
 		<hr>
+		<br><br>
 		
 		<center>
 			<p>

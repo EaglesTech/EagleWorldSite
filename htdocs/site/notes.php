@@ -8,7 +8,7 @@ include ("header.inc.php");
 <div class="top">Bem-Vindo!</div>
 <div class="mid">
 	<hr>
-	<marquee><font class=f3> <font color=orange>Double Eagle Gold ate dia 31/01 as 23:59!</font></marquee>
+	<marquee><font class=f3> <font color=orange>50% + XP, Double Loot, Double Eagle Gold ate dia 31/01 as 23:59!</font></marquee>
 	<hr>
 <!-- Meio -->
     <center>
@@ -71,7 +71,7 @@ include ("header.inc.php");
 
 
             <br><br>
-            <table border=1 cellpadding=1 cellspacing=1 width="280">
+           <!--  <table border=1 cellpadding=1 cellspacing=1 width="280">
             <tr>
                 <td colspan=2><img src=""> <font class=f2><font color=orange>Server Rates</font> <a href="servidores.php"><font color="lightblue"></font></a></font></td>
             </tr>
@@ -110,6 +110,56 @@ include ("header.inc.php");
             <tr>
                 <td><font class=f1><b>Magic:</b></font></td>
                 <td width="290"><font class=f1><font color=white>5x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Skills:</b></font></td>
+                <td width="290"><font class=f1><font color=white>150x</font></font></td>
+            </tr>
+            </table>
+ -->
+             <table border=1 cellpadding=1 cellspacing=1 width="280">
+            <tr>
+                <td colspan=2><img src=""> <font class=f2><font color=orange>Server Rates</font> <a href="servidores.php"><font color="lightblue">(+50%)</font></a></font></td>
+            </tr>
+            <tr>
+                <td width="200"><font class=f1><b>Exp 1-100:</b></font></td>
+                <td width="100"><font class=f1><font color=white>96x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 101-150:</b></font></td>
+                <td width="290"><font class=f1><font color=white>48x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 151-200:</b></font></td>
+                <td width="290"><font class=f1><font color=white>36x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 201-250:</b></font></td>
+                <td width="290"><font class=f1><font color=white>24x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 251-300:</b></font></td>
+                <td width="290"><font class=f1><font color=white>12x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 301-400:</b></font></td>
+                <td width="290"><font class=f1><font color=white>10x</font></font></td>
+            </tr>   
+            <tr>
+                <td><font class=f1><b>Exp 401-500:</b></font></td>
+                <td width="290"><font class=f1><font color=white>6x</font></font></td>
+            </tr>   
+            <tr>
+                <td><font class=f1><b>Exp 501+:</b></font></td>
+                <td width="290"><font class=f1><font color=white>3x</font></font></td>
+            </tr>           
+            <tr>
+                <td><font class=f1><b>Magic:</b></font></td>
+                <td width="290"><font class=f1><font color=white>5x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Loot:</b></font></td>
+                <td width="290"><font class=f1><font color=white>2x</font></font></td>
             </tr>
             <tr>
                 <td><font class=f1><b>Skills:</b></font></td>

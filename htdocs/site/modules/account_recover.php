@@ -17,6 +17,11 @@
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*ini_set('display_errors',1);
+ini_set('display_startup_erros',1);
+error_reporting(E_ALL);
+*/
+
 include ("../include.inc.php");
 ($cfg['Email_Recovery']) or die('Disabled in config');
 
@@ -35,7 +40,7 @@ if ($form->exists()){
 				//check for email match
 				if (strtolower($account->getAttr('email')) == strtolower($form->attrs['email']) && !empty($form->attrs['email'])){
 					//assign recovery key to account
-					$key = $account->addRecoveryKey();
+					$key = $account->addRecoveryKey(); #esse codigo aqui gera a rk depois só cola em outro arquivo eu tenho uma print de como é
 					if ($account->save()){
 						$body = 'Caro jogador,
 
@@ -74,7 +79,7 @@ if ($form->exists()){
 							$msg->addMsg('An email with recovery details was sent to your inbox.');
 							$msg->addClose('Finish');
 							$msg->show();
-						}else{ $error = "Mailer Error: " . $mail->ErrorInfo;}
+						}else{ $error = "Mailer Error: " . $mail->ErrorInfo; }
 					}else{ $error = $account->getError();}
 				}else{ $error = "Incorrect email address";}
 			}else{ $error = "Failed to load account";}
@@ -94,7 +99,7 @@ if ($form->exists()){
 	$account = new Account();
 	if ($account->load($_GET['account'])){
 		//check recovery key against database
-		if ($account->checkRecoveryKey($_GET['key'])){
+		if ($account->checkRecoveryKey($_GET['key'])){#ele gera ela e depois apaga como se fosse uma chave aleatoria
 			//set new password if key correct
 			$password = substr(str_shuffle('qwertyuipasdfhjklzxcvnm12345789'), 0, 8);
 			$account->setPassword($password);
@@ -104,7 +109,7 @@ if ($form->exists()){
 			$msg->addClose('Finish');
 			$msg->show();
 			//save password, remove recovery key
-			$account->removeRecoveryKey();
+			$account->removeRecoveryKey(); #aqui remove e troca ela ao trocar a senha
 			if (!$account->save()) {$error = 'Error saving account';}
 		}else{ $error = "The link is invalid";}
 	}else{ $error = "Failed to load account";}

@@ -270,7 +270,7 @@
       <td align=center>
         * A cada dano acima de 300 que levar, há uma chance de 15% de dar slow e status de gelo em uma pequena área
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>
@@ -280,7 +280,7 @@
       <td align=center>
         * Regenera +30 a cada mana rune utilizada
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>
@@ -366,7 +366,7 @@
       <td align=center>
         * A cada 2 minutos, absorve metade de um dano acima de 1000<br>
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>
@@ -386,7 +386,7 @@
       <td align=center>
         * +15 de dano do tipo poison
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>
@@ -396,7 +396,7 @@
       <td align=center>
         * 15% de chance de stunnar o alvo por 0.5 segundos por hit
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>
@@ -407,7 +407,7 @@
         * 110 ~ 150 de dano do tipo ice<br>
         * 110 ~ 150 de dano do tipo energy
       </td>
-      <td align=center><font color=green>ON</font></td>
+      <td align=center><font color=red>OFF</font></td>
     </tr>
     
     <tr class=f1>

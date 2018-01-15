@@ -119,7 +119,7 @@ include ("header.inc.php");
                                       <td align=center><font class=f1>Fierce Berserk</font></td>
                                       <td align=center><font class=f1>exori gran</font></td>
                                       <td align=center><font class=f1>70</font></td>
-									  <td align=center><font class=f1>65%</font></td>
+									  <td align=center><font class=f1>20%</font></td>
                                     </tr>								
 									<tr>
 									  <td colspan=5 align=center><font class=f3>Monster Knights <a href=vantagens.php target=vantagens><font color=blue>(VIP)</font></a></font></td>
@@ -128,7 +128,7 @@ include ("header.inc.php");
                                       <td align=center><font class=f1>Super Berserk</font> <a href=skills.php target=skills><font color=orange>(A.Skill)</font></a></td>
                                       <td align=center><font class=f1>ezzori</font></td>
                                       <td align=center><font class=f1>200</font></td>
-									  <td align=center><font class=f1>90%</font></td>
+									  <td align=center><font class=f1>80%</font></td>
                                     </tr>
 									<tr>
                                       <td align=center><font class=f1>Omega Haste</font></td>
