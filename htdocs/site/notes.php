@@ -168,20 +168,20 @@ include ("header.inc.php");
             </table>
 
 
-            <br>
+            <br><br><br>
 
-        <!-- <center>
-        <a href="downloads.php">
+        <center>
+        <a href="http://www.mediafire.com/file/wwprjtoeo7aba64/Eagle_World_Clients_-_Install.rar">
         <font class="f2"><font color=lightblue>Baixe Nosso<br>Cliente Personalizado</font></font><br>
         <img src="images/download_button.png" width="100" height="100">
         </a>
-        </center> -->
+        </center>
         
     </td>
-    <td valign="top">
+    <td valign="top" width="280">
         <!-- Twitter -->
         <a class="twitter-timeline" href="https://twitter.com/eagleOT?ref_src=twsrc%5Etfw">Tweets by eagleOT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <script>
+                        <!-- <script>
                             !function(d,s,id){
                                 var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
                                 if(!d.getElementById(id)){
@@ -189,7 +189,7 @@ include ("header.inc.php");
                                     js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
                                     fjs.parentNode.insertBefore(js,fjs);
                                 }}(document,"script","twitter-wjs");
-                        </script>
+                        </script> -->
         <!-- /Twitter -->
     </td>
     </tr>
