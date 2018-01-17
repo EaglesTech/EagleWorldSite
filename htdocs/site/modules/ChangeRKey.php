@@ -1,0 +1,5 @@
+<?php
+/**
+ * Change Recovery Key;
+*/
+?>
