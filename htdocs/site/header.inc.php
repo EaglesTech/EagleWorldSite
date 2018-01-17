@@ -104,6 +104,7 @@
 								?>
 							</div>
 
+
 							<!-- FoxWorld Shop Menu -->
 							<div id="shop">
 								<div class="top">Eagle Shop</div>
@@ -119,6 +120,16 @@
 						<div class="bot"></div>
 					</td>
 					<td valign="top" width="100%" align="left">
+
+<!-- Forum Menu -->
+<div id="shop">
+  <div class="top">Forum</div>
+    <div class="mid"> <div id="forum">
+      <a href="http://eagleworld.forumeiros.com/"><img src="images/forum.gif" width="125"></a><br>
+    </div></div>
+  </div>
+    <div class="bot"></div>
+
 
 				</div>
 			</div>
