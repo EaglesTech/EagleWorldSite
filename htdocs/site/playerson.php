@@ -1,7 +1,7 @@
 <?php
-include ("include.inc.php");
-$ptitle="Players ON - $cfg[server_name]";
-include ("header.inc.php");
+include 'include.inc.php';
+$ptitle = 'Players ON - ' . $cfg['server_name'];
+include 'header.inc.php';
 ?>
 <center>
 <div id="content">
@@ -13,10 +13,10 @@ $SQL->myQuery('SELECT name, vocation, level FROM players WHERE online = 1 ORDER 
 if ($SQL->failed()) 
 	throw new Exception('<b>Are you using TFS server?</b><br/>SQL query failed:<br/>'.$SQL->getError());
 if ($SQL->num_rows() == 0){
-	echo '<font class=f2>N„o h· jogadores online neste momento! :(</font>';
+	echo '<font class=f2>N√£o h√° jogadores online neste momento! :(</font>';
 } else {
 	$i = 0;
-	echo '<tr class="color0"><td style="width:30px">#</td><td style="width:200px"><b>Name</b></td><td style="width:130px"><b>Vocation</b></td><td style="width:40px"><b>Level</b></td></tr>';
+	echo '<tr class="color0"><td style="width:30px">#</td><td style="width:200px"><b>Name</b></td><td style="width:140px"><b>Vocation</b></td><td style="width:40px"><b>Level</b></td></tr>';
 }
 while ($player = $SQL->fetch_array()){
 	$i++;
@@ -30,4 +30,4 @@ while ($player = $SQL->fetch_array()){
 <div class="bot"></div>
 </div>
 </center>
-<?php include ("footer.inc.php");?>
+<?php include 'footer.inc.php';
