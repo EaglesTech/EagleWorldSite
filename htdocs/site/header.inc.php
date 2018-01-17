@@ -81,7 +81,7 @@
 <div class="top">Forum</div>
 <div class="mid">
 <div id="forum">
-<a href="#"><img src="images/forum.gif" width="125"></a><br>
+<a href="http://eagleworld.forumeiros.com/"><img src="images/forum.gif" width="125"></a><br>
 </div>
 </div>
 </div>

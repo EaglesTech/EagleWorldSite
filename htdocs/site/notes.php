@@ -8,7 +8,7 @@ include ("header.inc.php");
 <div class="top">Bem-Vindo!</div>
 <div class="mid">
 	<hr>
-	<marquee><font class=f3> <font color=orange>50% + XP, Double Loot, Double Eagle Gold ate dia 31/01 as 23:59!</font></marquee>
+	<marquee><font class=f3> <font color=orange>Double XP, Double Loot, Double Eagle Gold ate dia 31/01 as 23:59!</font></marquee>
 	<hr>
 <!-- Meio -->
     <center>
@@ -117,7 +117,7 @@ include ("header.inc.php");
             </tr>
             </table>
  -->
-             <table border=1 cellpadding=1 cellspacing=1 width="280">
+         <!--     <table border=1 cellpadding=1 cellspacing=1 width="280">
             <tr>
                 <td colspan=2><img src=""> <font class=f2><font color=orange>Server Rates</font> <a href="servidores.php"><font color="lightblue">(+50%)</font></a></font></td>
             </tr>
@@ -166,6 +166,57 @@ include ("header.inc.php");
                 <td width="290"><font class=f1><font color=white>150x</font></font></td>
             </tr>
             </table>
+ -->
+             <table border=1 cellpadding=1 cellspacing=1 width="280">
+            <tr>
+                <td colspan=2><img src=""> <font class=f2><font color=orange>Server Rates</font> <a href="servidores.php"><font color="lightblue">(+100%)</font></a></font></td>
+            </tr>
+            <tr>
+                <td width="200"><font class=f1><b>Exp 1-100:</b></font></td>
+                <td width="100"><font class=f1><font color=white>128x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 101-150:</b></font></td>
+                <td width="290"><font class=f1><font color=white>64x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 151-200:</b></font></td>
+                <td width="290"><font class=f1><font color=white>48x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 201-250:</b></font></td>
+                <td width="290"><font class=f1><font color=white>32x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 251-300:</b></font></td>
+                <td width="290"><font class=f1><font color=white>16x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Exp 301-400:</b></font></td>
+                <td width="290"><font class=f1><font color=white>12x</font></font></td>
+            </tr>   
+            <tr>
+                <td><font class=f1><b>Exp 401-500:</b></font></td>
+                <td width="290"><font class=f1><font color=white>8x</font></font></td>
+            </tr>   
+            <tr>
+                <td><font class=f1><b>Exp 501+:</b></font></td>
+                <td width="290"><font class=f1><font color=white>4x</font></font></td>
+            </tr>           
+            <tr>
+                <td><font class=f1><b>Magic:</b></font></td>
+                <td width="290"><font class=f1><font color=white>5x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Loot:</b></font></td>
+                <td width="290"><font class=f1><font color=white>2x</font></font></td>
+            </tr>
+            <tr>
+                <td><font class=f1><b>Skills:</b></font></td>
+                <td width="290"><font class=f1><font color=white>150x</font></font></td>
+            </tr>
+            </table>
+
 
 
             <br><br><br>
@@ -178,7 +229,7 @@ include ("header.inc.php");
         </center>
         
     </td>
-    <td valign="top" width="280">
+    <td valign="top" width="280" height="280px">
         <!-- Twitter -->
         <a class="twitter-timeline" href="https://twitter.com/eagleOT?ref_src=twsrc%5Etfw">Tweets by eagleOT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         <!-- <script>
