@@ -1,13 +1,13 @@
 <?php 
-include ("include.inc.php");
-$ptitle= "News - $cfg[server_name]";
-include ("header.inc.php");
+include 'include.inc.php';
+$ptitle= 'News - ' . $cfg['server_name'];
+include 'header.inc.php';
 ?>
 <div id="content">
 <div class="top">Desenvolvimento</div>
 <div class="mid">
 <center> 
-<font size="5"> Area destinada para mostrar para os players constantemente, no oque a equipe do Eagle World está trabalhando!</font>
+<font size="5"> Area destinada para mostrar para os players constantemente, no oque a equipe do Eagle World estÃ¡ trabalhando!</font>
 <br><br><br>
 <table border=1 cellpadding=1 cellspacing=1 width="350">
             <tr>
@@ -47,4 +47,4 @@ include ("header.inc.php");
 </div>
 <div class="bot"></div>
 </div>
-<?php include ("footer.inc.php"); ?>
+<?php include 'footer.inc.php';
