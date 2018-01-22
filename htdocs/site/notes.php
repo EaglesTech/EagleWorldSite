@@ -1,7 +1,7 @@
 <?php 
-include ("include.inc.php");
-$ptitle="Home - $cfg[server_name]";
-include ("header.inc.php");
+include 'include.inc.php';
+$ptitle = 'Home - ' . $cfg['server_name'];
+include 'header.inc.php';
 ?>
 
 <div id="content">
@@ -47,10 +47,7 @@ include ("header.inc.php");
                 <td width="290"><font class=f1><font color=white>Red Skull: 6 kills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BAN: 9 kills</font></font></td>
             </tr>
             </table>
-
-
-
-            <br><br>
+            <br/><br/>
            <table border=1 cellpadding=1 cellspacing=1 width="280">
             <tr>
                 <td colspan=2><img src=""> <font class=f2><font color=orange>Eagle Enforced</font> <a href="servidores.php"><font color="lightblue">(+)</font></a></font></td>
@@ -69,7 +66,9 @@ include ("header.inc.php");
             </tr>
             </table>
 
-
+            <br/><br/>
+             <table border=1 cellpadding=1 cellspacing=1 width="280">
+               
             <br><br>
            <!--  <table border=1 cellpadding=1 cellspacing=1 width="280">
             <tr>
@@ -166,6 +165,8 @@ include ("header.inc.php");
                 <td width="290"><font class=f1><font color=white>150x</font></font></td>
             </tr>
             </table>
+
+            <br><br>
  -->
              <table border=1 cellpadding=1 cellspacing=1 width="280">
             <tr>
@@ -229,19 +230,11 @@ include ("header.inc.php");
         </center>
         
     </td>
+
     <td valign="top" width="280" height="280px">
+
         <!-- Twitter -->
         <a class="twitter-timeline" href="https://twitter.com/eagleOT?ref_src=twsrc%5Etfw">Tweets by eagleOT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <!-- <script>
-                            !function(d,s,id){
-                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-                                if(!d.getElementById(id)){
-                                    js=d.createElement(s);
-                                    js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js,fjs);
-                                }}(document,"script","twitter-wjs");
-                        </script> -->
-        <!-- /Twitter -->
     </td>
     </tr>
     </table>
@@ -249,27 +242,29 @@ include ("header.inc.php");
 </div>
 <div class="bot"></div>
 
-
 <div class="top">Novidades</div>
 <div class="mid">
 
-<?php date_default_timezone_set('America/Sao_Paulo');
+<?php
+date_default_timezone_set('America/Sao_Paulo');
 $mysql = new SQL();
-if (isset($_GET['id']))
+if (isset($_GET['id'])) {
     $mysql->myQuery('SELECT * FROM `nicaw_news` WHERE `id` = \''.mysql_escape_string((int)$_GET['id']).'\'');
-else
+} else {
     $mysql->myQuery('SELECT * FROM `nicaw_news` ORDER BY `date` DESC LIMIT 10');
-if ($mysql->failed())
+}
+if ($mysql->failed()) {
     throw new Exception('SQL query failed:<br/>'.$mysql->getError());
-while ($a = $mysql->fetch_array()){
-  echo '<font class=f2><i>'.date("jS F Y",$a['date']).'</i>';
-  echo ' - <b>'.htmlspecialchars($a['creator']).'</b></font>';
-  echo '<h2><font class=f3>'.htmlspecialchars($a['title']).'</font></h2>';
+}
+while ($a = $mysql->fetch_array()) {
+  echo '<font class=f2><i>' . date("jS F Y", $a['date']) . '</i>';
+  echo ' - <b>' . htmlspecialchars($a['creator']) . '</b></font>';
+  echo '<h2><font class=f3>' . htmlspecialchars($a['title']) . '</font></h2>';
   echo '<blockquote><font class=f1>';
-  if ((bool)(int)$a['html']){
+  if ((bool)(int)$a['html']) {
     echo $a['text'];
-  }else{
-    require_once('extensions/simple_bb_code.php');
+  } else {
+    require_once 'extensions/simple_bb_code.php';
     $bb = new Simple_BB_Code();
     echo $bb->parse($a['text']);
   }
@@ -281,4 +276,4 @@ while ($a = $mysql->fetch_array()){
 <div class="bot"></div>
 </div>
 
-<?php include("footer.inc.php"); ?>
+<?php include 'footer.inc.php';

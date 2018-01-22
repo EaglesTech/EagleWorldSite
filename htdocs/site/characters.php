@@ -1,7 +1,7 @@
 <?php
-include ("include.inc.php");
-$ptitle="Characters - $cfg[server_name]";
-include("header.inc.php");
+include 'include.inc.php';
+$ptitle = 'Characters - ' . $cfg['server_name'];
+include 'header.inc.php';
 ?>
 <div id="content">
 <div class="top">Character Lookup</div>
@@ -50,7 +50,7 @@ if (!empty($_GET['player_id']) && $player->load($_GET['player_id']) || !empty($_
 
 	echo '<font class=f2><a href=onlinebonus.php target=onlinebonus><font color=purple>Online Bonus:</font></a></font> <font class=f1>';
 	if(isset($player->storage['61000'])){
-   		echo '' . $player->storage['61000']; } else { echo '0';}
+   		echo '' . $player->storage['61000']; } else { echo '0'; }
    	echo'</font><br/>';
 
    	echo '<font class=f2>Warnings:</font><font class=f1>';
@@ -102,4 +102,4 @@ if (!empty($_GET['player_id']) && $player->load($_GET['player_id']) || !empty($_
 </div>
 <div class="bot"></div>
 </div>
-<?php include ("footer.inc.php"); ?>
+<?php include 'footer.inc.php';

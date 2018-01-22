@@ -1,3 +1,7 @@
 # EagleWorldSite
+Website for Eagle OT Server
 
-- Fix
+Edited and translated
+
+Regards,
+Vagner Kuntz.
